@@ -45,7 +45,7 @@ export default function StopWatch(){
    }
 
     return(<>
-         <h1>StopWatch</h1>
+         <h1>Stopwatch</h1>
             <p>Time: {formatTime(time)}</p> 
         <div>
             <button className="buttons" onClick={startTimer}> 
